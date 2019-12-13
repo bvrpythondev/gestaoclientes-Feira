@@ -21,7 +21,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '4QCW7ES9BKY8HT8ESDIBRJHY6T-034444444'
+SECRET_KEY = 'me_preencha'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'True'
@@ -137,10 +137,3 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'statics'),
 ]
 
-SENDGRID_API_KEY = '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'
-
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
