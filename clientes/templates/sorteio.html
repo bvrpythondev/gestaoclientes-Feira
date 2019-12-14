@@ -59,7 +59,9 @@ Sorteio
 </nav>
 
 
-<h2 style="color: purple"> O sorteado foi: {{ sorteado }}</h2>
+<h2 style="color: purple"> O sorteado foi: {{ sorteado.first_name }} {{ sorteado.last_name }}</h2>
+
+<p>Telefone {{ sorteado.phone }}</p>
 
 <div class="text-center">
     <img src="{% static 'sorteio-1.jpg' %}" class="rounded" alt="...">
