@@ -21,7 +21,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'me_preencha'
+SECRET_KEY = 'hz-1=it_*nbtqywca2h$-cpxq)o8=4hw=1eey6xh&g15k60vp#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'True'
