@@ -129,7 +129,7 @@ MEDIA_ROOT = 'media/clients_photos/'
 
 LOGIN_URL = '/login/'
 
-LOGIN_REDIRECT_URL = 'person_list'
+LOGIN_REDIRECT_URL = 'person_list_cbv'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
